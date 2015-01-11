@@ -7984,6 +7984,9 @@ button.close {
 #page header #menu ul li {
   display: inline;
 }
+#page .article-author-side ul {
+  list-style-type: none;
+}
 #page .article-author-side img {
   border-radius: 150px;
 }
