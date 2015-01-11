@@ -1,0 +1,49 @@
+@import "../../lib/bootstrap/3.3.1/less/bootstrap.less";
+@import "../../lib/bootstrap/3.3.1/less/mixins.less";
+@import "../../lib/font-awesome-4.2.0/less/font-awesome.less";
+@import "./variable";
+
+#page {
+  width: 1000px;
+
+  header {
+
+    margin-bottom: 5px;
+
+    #logo {
+      font-size: @font-size-h3;
+    }
+
+    #menu {
+      font-size: @font-size-h3;
+      ul {
+        padding: 0;
+        li {
+          display: inline;
+        }
+      }
+    }
+  }
+
+  .article-author-side img {
+    border-radius: 150px;
+  }
+
+  #right-col {
+    border-left: solid 1px @gray-lighter;
+  }
+
+  h1 {
+    border-bottom: solid 1px @gray-lighter;
+    padding-bottom: 5px;
+  }
+
+  #list_news {
+    .news {
+      .label {
+        margin: inherit 5px;
+      }
+    }
+  }
+
+}
