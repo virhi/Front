@@ -7962,8 +7962,15 @@ button.close {
 #page {
   width: 1000px;
 }
+#page footer {
+  margin-top: 5px;
+  padding-top: 5px;
+  border-top: solid 1px #eeeeee;
+}
 #page header {
   margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: solid 1px #eeeeee;
 }
 #page header #logo {
   font-size: 24px;
